@@ -2,6 +2,7 @@
 layout: default
 title: poster
 ---
+<h1>{% include abstract/title.md %}</h1>
 
 {% capture introduction %}
 {% include abstract/introduction.md %}

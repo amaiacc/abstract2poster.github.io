@@ -4,30 +4,19 @@ title: poster
 ---
 
 {% capture introduction %}
-
-Does this work? It seems like it! 
-
+{% include abstract/introduction.md %}
 {% endcapture %}
 
 {% capture methods %}
-
-what about this?
-{{ site.data.abstract.methods.content }}
-
+{% include abstract/methods.md %}
 {% endcapture %}
 
 {% capture results %}
-
-and this?
-{{ site.data.abstract.results.content }}
-
+{% include abstract/results.md %}
 {% endcapture %}
 
 {% capture conclusion %}
-
-aaand this?
-{{ site.data.abstract.conclusion.content }}
-
+{% include abstract/conclusion.md %}
 {% endcapture %}
 
 {% include sections.html %}

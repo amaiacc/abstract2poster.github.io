@@ -1,11 +1,33 @@
 ---
 layout: default
-title: abstract
+title: poster
 ---
-{% for item in site.data.abstract %}
-  {% capture section %}
-  {{ item }}
-  {% endcapture %} 
-{% endfor %}
+
+{% capture introduction %}
+
+Does this work? It seems like it! 
+
+{% endcapture %}
+
+{% capture methods %}
+
+what about this?
+{{ site.data.abstract.methods.content }}
+
+{% endcapture %}
+
+{% capture results %}
+
+and this?
+{{ site.data.abstract.results.content }}
+
+{% endcapture %}
+
+{% capture conclusion %}
+
+aaand this?
+{{ site.data.abstract.conclusion.content }}
+
+{% endcapture %}
 
 {% include sections.html %}

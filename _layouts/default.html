@@ -7,12 +7,14 @@
   </head>
   <body>
     <div class="header">
-      <!-- Align title to center -->
       <div class="title">
         <h1>{{ site.title }}</h1>
       </div>
     </div>
-    {% assign ordered_pages = site.abstract | sort:"order_number" %} {% for item
-    in ordered_pages %} {% include sections.html %} {% endfor %}
+    <!-- Grid -->
+    <div class="grid-wrapper">
+      {% assign ordered_pages = site.abstract | sort:"order_number" %} {% for
+      item in ordered_pages %} {% include sections.html %} {% endfor %}
+    </div>
   </body>
 </html>

@@ -1,1 +1,5 @@
+---
+title: Results
+order_number: 3
+---
 In the delta band, the word frequency TRFs differed between conditions, with pronounced differences between 200 and 500ms [fig. 1a]. The LMM on reconstruction accuracy revealed an interaction between condition and frequency (β=1.90∗10−3, SE=7.28∗10−4, t(1530)=2.60, p <0.01; χ2(1)=6.75, p < 0.01): adding the word frequency feature improved reconstruction accuracy more in sentences than in word lists [fig. 1b/c]. The post-hoc tests confirmed this (all q<0.05). In the theta band, the word frequency TRFs differed at ~100 and ~200ms [fig 2a]. The LMM showed a beneficial effect of word frequency in both conditions (β=9.93∗10−4, SE=3.84∗10−4, t(1530)=2.58, p<0.01; χ2(1)=21.53, p<0.01), that disappeared in the post-hoc tests (all q>0.1). There was no interaction effect [fig. 2b/c].

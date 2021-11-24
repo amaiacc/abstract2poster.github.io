@@ -1,1 +1,0 @@
-"This is the best research in the whole world!"

@@ -1,3 +1,20 @@
 ---
 ---
 @import "main";
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    top: 0;
+    background: rgb(82, 189, 247);
+    padding: 1% 2%;
+}
+
+.title {
+    font-size: 1.1em;
+    color: #050505;
+    font-weight: bold;
+}

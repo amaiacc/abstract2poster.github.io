@@ -6,9 +6,17 @@
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
   <body>
-    <h1>{{ site.title }}</h1>
-    {% assign ordered_pages = site.abstract | sort:"order_number" %} {% for item
-    in ordered_pages %} {{ item }} {% endfor %}
+
+  <div class="header">
+      <div class="title">
+        <h1>{{ site.title }}</h1>
+      </div>
+    </div>
+    <!-- Grid -->
+    <div class="grid-wrapper">
+      {% assign ordered_pages = site.abstract | sort:"order_number" %} {% for
+      item in ordered_pages %} {% include sections.html %} {% endfor %}
+    </div>
 
     {% if site.images.figure_1 %}
     <img src="{{ site.images.figure_1}}">

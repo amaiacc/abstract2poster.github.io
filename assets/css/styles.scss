@@ -1,3 +1,27 @@
 ---
 ---
 @import "main";
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    top: 0;
+    background: rgb(82, 189, 247);
+    padding: 1% 2%;
+}
+
+.title {
+    font-size: 1.1em;
+    color: #050505;
+    font-weight: bold;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
